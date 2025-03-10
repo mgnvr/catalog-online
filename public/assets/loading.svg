@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="54" viewBox="0 0 66 54" fill="none" style="">
+  <path
+    d="M46.4233 28.2836L59.7924 49.985H5.75206L19.1212 28.2836L27.3142 14.9843L32.7722 6.12461L38.2302 14.9843L46.4233 28.2836Z"
+    stroke="#89253E" stroke-width="6.42481" class="XjRMbSWP_0" />
+  <style data-made-with="vivus-instant">
+    .XjRMbSWP_0 {
+      stroke-dasharray: 158 160;
+      stroke-dashoffset: 159;
+      animation: XjRMbSWP_draw_0 2000ms ease-in-out 0ms infinite, XjRMbSWP_fade 2000ms linear 0ms infinite;
+    }
+
+    @keyframes XjRMbSWP_draw {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes XjRMbSWP_fade {
+      0% {
+        stroke-opacity: 1;
+      }
+
+      85% {
+        stroke-opacity: 1;
+      }
+
+      100% {
+        stroke-opacity: 0;
+      }
+    }
+
+    @keyframes XjRMbSWP_draw_0 {
+      0% {
+        stroke-dashoffset: 159
+      }
+
+      40% {
+        stroke-dashoffset: 0;
+      }
+
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+</svg>

@@ -1,0 +1,64 @@
+{
+  "name": "driv3r",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --ignore client",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build --ignore client",
+    "production": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --mode production",
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && now && now alias"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@vuikit/icons": "^0.8.1",
+    "@vuikit/theme": "^0.8.1",
+    "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-backtotop": "^1.6.1",
+    "vue-router": "^3.0.3",
+    "vue-youtube": "^1.4.0",
+    "vuesax": "^4.0.1-alpha.25",
+    "vuex": "^3.1.1",
+    "vuex-persistedstate": "^2.5.4",
+    "vuikit": "^0.8.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-template-compiler": "^2.7.14"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
